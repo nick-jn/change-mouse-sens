@@ -1,6 +1,8 @@
 # change-mouse-sens
 An interactive bash script for changing the mouse (pointer) sensitivity via xinput
 
+Requires: bc.
+
 The chief motivation for this script is the lack of sensitivity control for libinput devices in XFCE's mouse configuration tool. Instead of setting the sensitivity manually each time via xinput --set-prop, this script provides an interactive interface with a fine control over sensitivity adjustments. Acceleration control is not implemented.
 
 Make sure to pick the appropriate device, and don't pick a virtual device. The selection options list all the available pointer devices "just in case".
